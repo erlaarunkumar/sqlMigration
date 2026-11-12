@@ -1,0 +1,15 @@
+{
+	"name": "adf-halford-dev",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d030234b-e5fd-44ed-891c-6d17e26dedf1",
+		"tenantId": "268b535c-ac72-4eec-a640-04fce56963ee"
+	}
+}
