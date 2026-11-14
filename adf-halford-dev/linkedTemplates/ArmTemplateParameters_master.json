@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-halford-dev"
+		},
+		"LS_SQLSERVER_password": {
+			"value": ""
+		},
+		"LS_SQL_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_SQLSERVER_properties_typeProperties_server": {
+			"value": "halford.database.windows.net"
+		},
+		"LS_SQLSERVER_properties_typeProperties_database": {
+			"value": "halfords"
+		},
+		"LS_SQLSERVER_properties_typeProperties_userName": {
+			"value": "Harsha"
+		},
+		"LS_SQL_PARQUET_properties_typeProperties_url": {
+			"value": "https://halford.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
